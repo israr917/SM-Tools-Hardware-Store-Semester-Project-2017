@@ -1,0 +1,26 @@
+.w3-container{
+background: #272727;
+color:white;
+}
+section table,section tr,section td{
+}
+section table{
+width:80%;
+height:340px;
+}
+section table tr{
+padding:40px;
+}
+section table td input{
+width:290px;
+height:40px;
+border-radius:2px;
+border:1px solid rgba(0,0,0,0.5);
+}
+section table select{
+width:100px;
+height:30px;
+}
+section table textarea{
+border:1px solid rgba(0,0,0,0.5);
+}

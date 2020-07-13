@@ -1,0 +1,178 @@
+<!Doctype html>
+<html>
+
+<head>
+      <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/contact.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css"/>
+    <script src="bootstrap/jquery.min.js"></script>  
+    <script src="bootstrap/bootstrap.min.js">
+    </script>
+    <link rel="stylesheet" href="w3.css">
+    <script>
+	function validate(){
+	var sname = document.form1.name.value;
+	var semail = document.form1.email.value;
+	var stxtfield = document.form1.textField.value;
+	if(sname==""){
+	alert('Please Provide Your Name! ');
+	}
+	else if(semail==""){
+	alert('Please Provide Your Email! ');
+	}
+	else if(txtfield==""){
+	alert('Please Write Something in Text Field! ');
+	}
+	
+	
+	}
+	
+    
+    </script>
+</head>
+
+<body>
+    
+<div id="main_wrapper">
+<header>
+
+
+    
+<h1><a href="index1.html">SM TOoLS</a> & Hardware Store </h1>
+	<img src="imges\logo1.png" alt="logo_pics" height="70px" width="70px"/>
+    <h5 class="w3-center w3-text-orange w3-xlarge w3-margin-top">
+The Biggest Choice of Tools & Hardware in Pakistan</h5>
+
+
+</header>
+    
+<div id="nav">
+    <ul style="clear:left;">
+<li><a href="index1.html" class="active">Home</a></li>
+
+<li><a href="products1.html">Product</a>
+<li><a href="about.html">About Us</a></li> 
+
+<li><a href="Gallery.html">Gallery</a></li>    
+<li><a href="contact.html">Contact Us</a></li>     
+</ul>
+</div>
+ 
+    
+
+<br><br>
+
+<br><br>
+<section>
+<h1 class="w3-container">Feel Free To Contact Us</h1>
+<center>
+<form name="form1" action="contact.html">
+<table id="contact_us_table">
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name" id="field1" placeholder="Please Enter Your Name"/></td>
+</tr>
+<tr>
+<td>Email:</td>
+<td><input type="email" name="email" placeholder="Please Enter Your Email"/></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td>
+	<select>
+	<option>Male</option>
+	<option>Female</option>
+	<option>Others</option>
+	</select>
+	
+</td>
+</tr>
+
+<tr>
+<td>Feedback</td>
+<td><textarea rows="7" cols="60" name="textField" placeholder="Your Comments! ">
+</textarea></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="submit" value="Submit" style="width:120px;" onclick="validate()"/></td>
+</tr>
+</table>
+</form></center>
+
+</section>
+
+<footer>
+<center>
+    
+<table>
+<tr>
+<td>
+<ul>
+<li><a href="#">Site Map</a></li>    
+<li><a href="#">Search Terms</a></li>    
+<li><a href="#">Advanced Search</a></li>    
+<li><a href="#">Orders and Return</a></li>    
+<li><a href="#">Contact Us</a></li>    
+</ul>    
+</td>  
+    
+    
+    <td>
+<ul>
+<li><a href="#">Shipping & Returns</a></li>    
+<li><a href="#">Secure Shopping</a></li>    
+<li><a href="#">International Shipping</a></li>    
+<li><a href="#">Affiliates</a></li>    
+<li><a href="#">Group Sales</a></li>    
+</ul>    
+</td>  
+    
+    
+    
+    
+    
+       <td>
+<ul>
+<li><a href="#">Sign In</a></li>    
+<li><a href="#">View Cart</a></li>    
+<li><a href="#">My WhishList</a></li>    
+<li><a href="#">Track My Order</a></li>    
+<li><a href="#">Help</a></li>    
+</ul>    
+</td>  
+    
+    
+</tr>    
+
+    
+
+
+       
+    
+    
+    
+    
+</table>
+    
+</center>
+<div id="links">
+    <img src="imges/social/fb.png"/>
+    <img src="imges/social/gmail.png"/>
+    <img src="imges/social/Twitter-icon.png"/>
+    
+</div>
+
+</footer>
+    
+    
+    
+</div>
+</body>
+
+
+
+
+</html>
